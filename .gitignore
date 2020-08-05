@@ -1,22 +1,35 @@
-.DS_Store
-node_modules
-/dist
-
-# local env files
-.env.local
-.env.*.local
-
-# Log files
+### Logs Directory ###
+logs/
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
+### Vue Build Directory ###
+/dist/
+
+### Tauri Build Directory ###
+/dist_tauri
+
+### Test Directory ###
+/tests/unit/coverage/
+/tests/e2e/reports/
+.nyc_output/
+
+### Dependency Directory ###
+node_modules/
+
+### IDE or Text Editor Directory ###
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
-*.sw?
+
+### macOS Directory ### 
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes

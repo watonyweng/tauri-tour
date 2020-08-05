@@ -1,0 +1,10 @@
+### Cargo Directory ### 
+/target/
+WixTools
+
+### RustFmt Directory ### 
+**/*.rs.bk
+
+### Config Directory ### 
+config.json
+bundle.json
